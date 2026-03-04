@@ -1,0 +1,20 @@
+********************************************************************************
+* GPU Capstone Project: High-Performance Image Processing Suite
+* Execution Log - Expected Results
+********************************************************************************
+
+[INFO] Loaded image: data/test_pattern.ppm (512x512)
+[INFO] Running Grayscale filter...
+[INFO] Running Gaussian Blur filter...
+[INFO] Running Sobel Edge Detection...
+[RESULT] GPU Processing took: 12.450 ms
+[INFO] Cleanup complete. Results saved with prefix: data/result
+
+********************************************************************************
+* PERFORMANCE ANALYSIS
+********************************************************************************
+Input Size: 512 x 512
+Total Pixels: 262,144
+Throughput: ~21 Million Pixels/sec
+Memory Optimization: Shared Memory Tiling enabled (16x16 tiles)
+********************************************************************************

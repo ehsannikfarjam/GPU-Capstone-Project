@@ -1,0 +1,7 @@
+--- GPU Capstone Project: High-Performance Image Processing Suite ---
+[1/3] Building project for Linux...
+mkdir -p bin
+nvcc -I./include -O3 -arch=sm_50 src/main.cu src/kernels.cu -o bin/image_processor
+[2/3] Running GPU Image Processing Pipeline...
+[3/3] Verification Summary
+FAILURE: Output files were not generated.
